@@ -4,17 +4,65 @@
   <meta charset="UTF-8">
   <title>My Articles</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 700px; margin: auto; padding: 2rem; }
-    h1 { color: #1e40af; }
-    a { color: #1e40af; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    /* Reset some defaults */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #1d4ed8;
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 1rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Articles</h1>
-  <p>This is my first article site. Click below to read articles:</p>
+  <header>
+    <h1>Welcome to My Articles</h1>
+    <p>Click on an article below to start reading:</p>
+  </header>
+
   <ul>
     <li><a href="article1.html">Article 1</a></li>
+    <li><a href="article2.html">Article 2</a></li>
   </ul>
 </body>
 </html>
+
